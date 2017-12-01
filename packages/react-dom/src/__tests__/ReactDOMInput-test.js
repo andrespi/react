@@ -1499,7 +1499,7 @@ describe('ReactDOMInput', () => {
       var node = container.firstChild;
 
       expect(node.value).toBe('');
-      expect(node.getAttribute('value')).toBe(null);
+      expect(node.getAttribute('value')).toBe('');
     });
 
     it('does not update the value to a Symbol', function() {
@@ -1518,7 +1518,7 @@ describe('ReactDOMInput', () => {
       var node = container.firstChild;
 
       expect(node.value).toBe('');
-      expect(node.getAttribute('value')).toBe(null);
+      expect(node.getAttribute('value')).toBe('');
     });
 
     it('does not update defaultValue to a Symbol', function() {
@@ -1539,7 +1539,7 @@ describe('ReactDOMInput', () => {
       var node = container.firstChild;
 
       expect(node.value).toBe('');
-      expect(node.getAttribute('value')).toBe(null);
+      expect(node.getAttribute('value')).toBe('');
     });
 
     it('does not update the value to a function', function() {
@@ -1558,7 +1558,7 @@ describe('ReactDOMInput', () => {
       var node = container.firstChild;
 
       expect(node.value).toBe('');
-      expect(node.getAttribute('value')).toBe(null);
+      expect(node.getAttribute('value')).toBe('');
     });
 
     it('does not update defaultValue to a function', function() {
